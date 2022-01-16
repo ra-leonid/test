@@ -47,4 +47,8 @@ public class Calculator {
     public int mod() {
         return a % b;
     }
+
+    public int pow() {
+        return (int) Math.pow(a, b);
+    }
 }

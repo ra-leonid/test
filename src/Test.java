@@ -27,5 +27,6 @@ public class Test {
         System.out.println(calculator.mul());
         System.out.println(calculator.div());
         System.out.println(calculator.mod());
+        System.out.println(calculator.pow());
     }
 }
