@@ -29,6 +29,10 @@ public class Calculator {
     }
 
     public int sum() {
+        return a + b;
+    }
+
+    public int sub() {
         return a - b;
     }
 }
