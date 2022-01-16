@@ -39,4 +39,8 @@ public class Calculator {
     public int mul() {
         return a * b;
     }
+
+    public int div() {
+        return a / b;
+    }
 }
