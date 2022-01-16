@@ -23,7 +23,7 @@ public class Test {
         Calculator calculator = new Calculator(10, 7);
 
         System.out.println(calculator.sum());
-
         System.out.println(calculator.sub());
+        System.out.println(calculator.mul());
     }
 }
