@@ -17,18 +17,10 @@
 /**
  * @author L. Rastorguev
  **/
-public class Calculator {
+public class Test {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator(10, 7);
 
-    private final int a;
-
-    private final int b;
-
-    public Calculator(final int a, final int b) {
-        this.a = a;
-        this.b = b;
-    }
-
-    public int sum() {
-        return a - b;
+        System.out.println(calculator.sum());
     }
 }
